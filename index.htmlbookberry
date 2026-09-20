@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bookberry 🍓</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #fff8f5;
+      color: #3b2925;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 20px;
+      background: #ffe5df;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 0;
+    }
+
+    .subtitle {
+      font-size: 17px;
+      margin-top: 8px;
+    }
+
+    .hero {
+      padding: 55px 20px;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 500px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .start-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 28px;
+      background: #d96c72;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+    }
+
+    .start-button:hover {
+      background: #c95760;
+    }
+
+    .features {
+      padding: 30px 20px 60px;
+    }
+
+    .feature {
+      max-width: 350px;
+      margin: 20px auto;
+      padding: 22px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    }
+
+    footer {
+      padding: 25px;
+      background: #ffe5df;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🍓 BOOKBERRY</h1>
+    <div class="subtitle">A little box for your next story 📖</div>
+  </header>
+
+  <section class="hero">
+    <h2>Build your perfect book box ✨</h2>
+
+    <p>
+      Choose your size, genre, colour and cute extras.
+      We'll create a little reading package made just for you.
+    </p>
+
+    <a href="#choose" class="start-button">
+      Create my box 🍓
+    </a>
+  </section>
+
+  <section class="features" id="choose">
+
+    <div class="feature">
+      📚 <h3>Choose your book</h3>
+      <p>Pick the genre you love and we'll find a story for you.</p>
+    </div>
+
+    <div class="feature">
+      🎀 <h3>Make it aesthetic</h3>
+      <p>Choose colours and cute little extras for your box.</p>
+    </div>
+
+    <div class="feature">
+      🫣 <h3>Hide the cover</h3>
+      <p>Want some privacy? Add a cute cover that hides the original book cover.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    🍓 Bookberry • Made for people who love books
+  </footer>
+
+</body>
+</html>
